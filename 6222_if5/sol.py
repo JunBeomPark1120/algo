@@ -12,4 +12,4 @@ else:
     
 print(char, result)
 print(ord(char), ord(result))
-print(f'{char}(ASCII)'ord(char), ord(result))
+print(f'{char}(ASCII: {ord(char)}) => {result}(ASCII: {ord(char)}')
