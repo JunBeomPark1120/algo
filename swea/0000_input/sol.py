@@ -60,3 +60,20 @@ for row in matrix:
             print('5가 있습니다.')
 else:
     print('없습니다.')
+    
+N, M = map(int, input().split())
+matrix = []
+
+for i in range(N):
+    numbers = list(map(int,input().split()))
+    matrix.append(numbers)
+
+# for row in range(len(matrix)):
+for row in range(N):
+    # for col in range(len(matrix[0])):
+    for col in range(M):
+        print(matrix[row][col])
+        
+for col in range(len(matrix[0])):
+    for row in range(len(matrix)):
+        print(matrix[row][col])
