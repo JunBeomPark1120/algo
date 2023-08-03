@@ -56,8 +56,8 @@ for tc in range(1, TC + 1):
                 
     count = 0
     
-    for x in range(board):
-        for y in range(board[0]):
+    for x in range(len(board)):
+        for y in range(len(board[0])):
             if board[x][y] == 3:
                 count += 1
-    print(board)
+    print(f'#{tc} {count}')
