@@ -36,6 +36,7 @@ for tc in range(1, T+1):
                     ok = True
                 else :
                     ok = False
+                    break
             if ok == True:
                 p = m
             else :
