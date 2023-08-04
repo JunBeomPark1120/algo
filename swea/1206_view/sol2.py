@@ -40,4 +40,4 @@ for tc in range(1 , T + 1) :
                 view = now - max_tail
                 total += view
                 
-    print(f'#{tc} {total}')            
+    print(f'#{tc} {total}')
