@@ -36,7 +36,7 @@ for tc in range(1, T+1):
     result = 0
     
     while len(stack):
-        print(stack)
+        # print(stack)
         now = stack.pop()
         check_list[now] = True
         
@@ -51,4 +51,4 @@ for tc in range(1, T+1):
                 #스택에 추가
                 stack.append(link)
     
-    print(result)
+    print(f'#{tc} {result}')
