@@ -23,7 +23,7 @@ def main():
     # prefs = {'download.default_directory': download_path}
     # chrome_options.add_experimental_option('prefs', prefs)
     # 크롬 드라이버 위치 설정 필요
-    browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), option=chrome_options)
+    browser = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options=chrome_options)
     
     browser.get("https://swexpertacademy.com/main/code/problem/problemList.do")
         
