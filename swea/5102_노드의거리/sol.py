@@ -54,4 +54,4 @@ for tc in range(1, T+1):
                     
                     #이전 노드의 거리 + 1
                     distance[link] = distance[now] + 1
-    print(f'#{tc} {distance[G]}')
+    print(f'#{tc} {distance[G]}') 

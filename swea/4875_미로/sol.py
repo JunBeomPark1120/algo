@@ -73,4 +73,4 @@ for idx in range(1, tc+1):
                     result = 1
                     break
                 
-    print(f'#{idx} {result}')
+    print(f'#{idx} {result}') 

@@ -73,4 +73,4 @@ for idx in range(1, tc+1):
                     result = abs(maze[x][y]) - 1
                     # 거리 계산 결과를 저장
         
-    print(f'#{idx} {result}')
+    print(f'#{idx} {result}') 
